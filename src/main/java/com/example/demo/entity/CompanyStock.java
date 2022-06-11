@@ -12,11 +12,11 @@ import lombok.Getter;
 @Entity
 @Getter
 public class CompanyStock {
-	
+
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long stockId;
     private String stockName;
     private BigDecimal stockPrice;
-    
+
 }
